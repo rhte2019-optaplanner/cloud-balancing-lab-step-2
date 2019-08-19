@@ -29,7 +29,7 @@
 
     <logger name="org.drools" level="info" />
 
-    <logger name="org.optaplanner" level="debug" />
+    <logger name="org.optaplanner" level="info" />
 
     <root level="warn"><!-- TODO We probably want to set default level to warn instead -->
         <appender-ref ref="consoleAppender"/>
