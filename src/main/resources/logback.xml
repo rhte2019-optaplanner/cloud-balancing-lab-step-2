@@ -31,6 +31,8 @@
 
     <logger name="org.optaplanner" level="info" />
 
+    <logger name="org.optaplanner.examples.cloudbalancing.optional.event.DebugSolverEventListener" level="debug" />
+
     <root level="warn"><!-- TODO We probably want to set default level to warn instead -->
         <appender-ref ref="consoleAppender"/>
         <!--
